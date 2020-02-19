@@ -47,4 +47,8 @@ creds: CredenciaisDTO = {
       },
       error => {});
   }
+
+  signup(){       
+    this.navCtrl.push('SignupPage');
+  }
 }
