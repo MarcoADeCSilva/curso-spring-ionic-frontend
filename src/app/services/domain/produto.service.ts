@@ -1,7 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { API_CONFIG } from '../../../config/api.config';
-import { Observable } from 'rxjs/Rx'; // IMPORTANTE: IMPORT ATUALIZADO
 
 @Injectable()
 export class ProdutoService {
